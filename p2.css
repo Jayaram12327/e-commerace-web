@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;700&family=Poppins:wght@600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.5em 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+}
+
+.navbar .navbar-brand{
+  color: darksalmon;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.nav-link{
+    color:black;
+    font-weight: 800;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url(https://static.toiimg.com/photo/71198298.cms);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: 5px;
+
+}
+
+#para{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#about{
+    background-image: linear-gradient(to right top, #c4c3c3, #bd9999, #b06f6e, #9f4544, #890f1b);
+}
+
+.letter{
+    letter-spacing: 5px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 800;
+}
+
+.a7{
+    list-style: none;
+}
+
+.a8{
+    text-decoration: underline red;
+}
